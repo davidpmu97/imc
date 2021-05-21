@@ -51,7 +51,7 @@ class IMCState extends State<IMCStateful>{
         mensajes = "Obesidad Severa (tu IMC = ${imc.toStringAsPrecision(2)})";
       }
       else{
-        mensajes = "Obesidad Muy Severa (tu IMC = ${imc.toStringAsPrecision(2)})";
+        mensajes = "Obesidad Muy Severa !! (tu IMC = ${imc.toStringAsPrecision(2)})";
       }
     });
   }
